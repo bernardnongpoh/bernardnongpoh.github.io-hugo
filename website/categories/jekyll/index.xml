@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll on Bernard Nongpoh</title>
+    <link>/categories/jekyll/</link>
+    <description>Recent content in Jekyll on Bernard Nongpoh</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing Reverie - A ridiculously elegant Jekyll theme</title>
+      <link>/post/2019-02-13-introducing-reverie-jekyll-theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-02-13-introducing-reverie-jekyll-theme/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/amitmerchant1990/reverie&#34; target=&#34;_blank&#34;&gt;Reverie&lt;/a&gt; is a &lt;a href=&#34;https://jekyllrb.com/&#34; target=&#34;_blank&#34;&gt;Jekyll&lt;/a&gt;-powered theme which is simple and opinionated. It&amp;rsquo;s actually a fork of &lt;a href=&#34;https://github.com/barryclark/jekyll-now&#34; target=&#34;_blank&#34;&gt;jekyll-now&lt;/a&gt; with some additional features and &lt;a href=&#34;https://github.com/amitmerchant1990/amitmerchant1990.github.io&#34; target=&#34;_blank&#34;&gt;personal touches&lt;/a&gt; which I&amp;rsquo;ve implemented to suit my needs for &lt;a href=&#34;https://www.amitmerchant.com&#34; target=&#34;_blank&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/reverie-demo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog&lt;/li&gt;
+&lt;li&gt;Fully responsive and mobile optimized base theme (Theme Demo)&lt;/li&gt;
+&lt;li&gt;Sass/Coffeescript support using Jekyll 2.0&lt;/li&gt;
+&lt;li&gt;Free hosting on your GitHub Pages user site&lt;/li&gt;
+&lt;li&gt;Markdown blogging&lt;/li&gt;
+&lt;li&gt;Elegant typography
+
+&lt;ul&gt;
+&lt;li&gt;Futura PT fonts (The same fonts which has been used on &lt;a href=&#34;https://pixar.com&#34; target=&#34;_blank&#34;&gt;https://pixar.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Syntax highlighting using Pygments
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://draculatheme.com/&#34; target=&#34;_blank&#34;&gt;Dracula syntax theme&lt;/a&gt; included&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Disqus commenting&lt;/li&gt;
+&lt;li&gt;Google Analytics integration&lt;/li&gt;
+&lt;li&gt;Categorize posts out-of-the box&lt;/li&gt;
+&lt;li&gt;A home widget to show recent GitHub commit&lt;/li&gt;
+&lt;li&gt;RSS Feed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;using-reverie-on-github-pages&#34;&gt;Using Reverie on GitHub Pages&lt;/h2&gt;
+
+&lt;h3 id=&#34;step-1-fork-reverie-to-your-user-repository&#34;&gt;Step 1) Fork Reverie to your User Repository&lt;/h3&gt;
+
+&lt;p&gt;Fork &lt;a href=&#34;https://github.com/amitmerchant1990/reverie&#34; target=&#34;_blank&#34;&gt;this repo&lt;/a&gt;, then rename the repository to &lt;code&gt;yourgithubusername.github.io&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Your Jekyll blog will often be viewable immediately at &lt;a href=&#34;https://yourgithubusername.github.io&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io&lt;/a&gt; (if it&amp;rsquo;s not, you can often force it to build by completing step 2)&lt;/p&gt;
+
+&lt;h3 id=&#34;step-2-customize-and-view-your-site&#34;&gt;Step 2) Customize and view your site&lt;/h3&gt;
+
+&lt;p&gt;Enter your site name, description, avatar and many other options by editing the &lt;code&gt;_config.yml&lt;/code&gt; file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.&lt;/p&gt;
+
+&lt;p&gt;Making a change to &lt;code&gt;_config.yml&lt;/code&gt; (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at &lt;a href=&#34;https://yourgithubusername.github.io&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io&lt;/a&gt; - if not, give it ten minutes as GitHub suggests and it&amp;rsquo;ll appear soon.&lt;/p&gt;
+
+&lt;h3 id=&#34;step-3-publish-your-first-blog-post&#34;&gt;Step 3) Publish your first blog post&lt;/h3&gt;
+
+&lt;p&gt;Create a new file called &lt;code&gt;/_posts/2019-2-13-Hello-World.md&lt;/code&gt; to publish your first blog post. That&amp;rsquo;s all you need to do to publish your first blog post! This &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown Cheatsheet&lt;/a&gt; might come in handy while writing the posts.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can add additional posts in the browser on GitHub.com too! Just hit the &lt;kbd&gt;Create new file&lt;/kbd&gt; button in &lt;code&gt;/_posts/&lt;/code&gt; to create new content. Just make sure to include the &lt;a href=&#34;http://jekyllrb.com/docs/frontmatter/&#34; target=&#34;_blank&#34;&gt;front-matter&lt;/a&gt; block at the top of each new blog post and make sure the post&amp;rsquo;s filename is in this format: year-month-day-title.md&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;using-categories-in-reverie&#34;&gt;Using Categories in Reverie&lt;/h2&gt;
+
+&lt;p&gt;You can categorize your content based on &lt;code&gt;categories&lt;/code&gt; in Reverie. For this, you just need to add &lt;code&gt;categories&lt;/code&gt; in front matter like below:&lt;/p&gt;
+
+&lt;p&gt;For adding single category:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;categories: JavaScript
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For adding multiple categories:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;categories: [PHP, Laravel]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The contegorized content can be shown over this URL: &lt;a href=&#34;https://yourgithubusername.github.io/categories/&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io/categories/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;rss&#34;&gt;RSS&lt;/h2&gt;
+
+&lt;p&gt;The generated &lt;a href=&#34;https://en.wikipedia.org/wiki/RSS&#34; target=&#34;_blank&#34;&gt;RSS feed&lt;/a&gt; of your blog can be found at &lt;a href=&#34;https://yourgithubusername.github.io/feed&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io/feed&lt;/a&gt;. You can see the example RSS feed over &lt;a href=&#34;https://www.amitmerchant.com/feed&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;sitemap&#34;&gt;Sitemap&lt;/h2&gt;
+
+&lt;p&gt;The generated sitemap of your blog can be found at &lt;a href=&#34;https://yourgithubusername.github.io/sitemap&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io/sitemap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;MIT&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

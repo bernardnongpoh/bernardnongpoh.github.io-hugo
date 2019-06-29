@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bernard Nongpoh</title>
+    <link>/</link>
+    <description>Recent content on Bernard Nongpoh</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing Reverie - A ridiculously elegant Jekyll theme</title>
+      <link>/post/2019-02-13-introducing-reverie-jekyll-theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-02-13-introducing-reverie-jekyll-theme/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/amitmerchant1990/reverie&#34; target=&#34;_blank&#34;&gt;Reverie&lt;/a&gt; is a &lt;a href=&#34;https://jekyllrb.com/&#34; target=&#34;_blank&#34;&gt;Jekyll&lt;/a&gt;-powered theme which is simple and opinionated. It&amp;rsquo;s actually a fork of &lt;a href=&#34;https://github.com/barryclark/jekyll-now&#34; target=&#34;_blank&#34;&gt;jekyll-now&lt;/a&gt; with some additional features and &lt;a href=&#34;https://github.com/amitmerchant1990/amitmerchant1990.github.io&#34; target=&#34;_blank&#34;&gt;personal touches&lt;/a&gt; which I&amp;rsquo;ve implemented to suit my needs for &lt;a href=&#34;https://www.amitmerchant.com&#34; target=&#34;_blank&#34;&gt;my blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/reverie-demo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog&lt;/li&gt;
+&lt;li&gt;Fully responsive and mobile optimized base theme (Theme Demo)&lt;/li&gt;
+&lt;li&gt;Sass/Coffeescript support using Jekyll 2.0&lt;/li&gt;
+&lt;li&gt;Free hosting on your GitHub Pages user site&lt;/li&gt;
+&lt;li&gt;Markdown blogging&lt;/li&gt;
+&lt;li&gt;Elegant typography
+
+&lt;ul&gt;
+&lt;li&gt;Futura PT fonts (The same fonts which has been used on &lt;a href=&#34;https://pixar.com&#34; target=&#34;_blank&#34;&gt;https://pixar.com&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Syntax highlighting using Pygments
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://draculatheme.com/&#34; target=&#34;_blank&#34;&gt;Dracula syntax theme&lt;/a&gt; included&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Disqus commenting&lt;/li&gt;
+&lt;li&gt;Google Analytics integration&lt;/li&gt;
+&lt;li&gt;Categorize posts out-of-the box&lt;/li&gt;
+&lt;li&gt;A home widget to show recent GitHub commit&lt;/li&gt;
+&lt;li&gt;RSS Feed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;using-reverie-on-github-pages&#34;&gt;Using Reverie on GitHub Pages&lt;/h2&gt;
+
+&lt;h3 id=&#34;step-1-fork-reverie-to-your-user-repository&#34;&gt;Step 1) Fork Reverie to your User Repository&lt;/h3&gt;
+
+&lt;p&gt;Fork &lt;a href=&#34;https://github.com/amitmerchant1990/reverie&#34; target=&#34;_blank&#34;&gt;this repo&lt;/a&gt;, then rename the repository to &lt;code&gt;yourgithubusername.github.io&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Your Jekyll blog will often be viewable immediately at &lt;a href=&#34;https://yourgithubusername.github.io&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io&lt;/a&gt; (if it&amp;rsquo;s not, you can often force it to build by completing step 2)&lt;/p&gt;
+
+&lt;h3 id=&#34;step-2-customize-and-view-your-site&#34;&gt;Step 2) Customize and view your site&lt;/h3&gt;
+
+&lt;p&gt;Enter your site name, description, avatar and many other options by editing the &lt;code&gt;_config.yml&lt;/code&gt; file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.&lt;/p&gt;
+
+&lt;p&gt;Making a change to &lt;code&gt;_config.yml&lt;/code&gt; (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at &lt;a href=&#34;https://yourgithubusername.github.io&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io&lt;/a&gt; - if not, give it ten minutes as GitHub suggests and it&amp;rsquo;ll appear soon.&lt;/p&gt;
+
+&lt;h3 id=&#34;step-3-publish-your-first-blog-post&#34;&gt;Step 3) Publish your first blog post&lt;/h3&gt;
+
+&lt;p&gt;Create a new file called &lt;code&gt;/_posts/2019-2-13-Hello-World.md&lt;/code&gt; to publish your first blog post. That&amp;rsquo;s all you need to do to publish your first blog post! This &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown Cheatsheet&lt;/a&gt; might come in handy while writing the posts.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can add additional posts in the browser on GitHub.com too! Just hit the &lt;kbd&gt;Create new file&lt;/kbd&gt; button in &lt;code&gt;/_posts/&lt;/code&gt; to create new content. Just make sure to include the &lt;a href=&#34;http://jekyllrb.com/docs/frontmatter/&#34; target=&#34;_blank&#34;&gt;front-matter&lt;/a&gt; block at the top of each new blog post and make sure the post&amp;rsquo;s filename is in this format: year-month-day-title.md&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;using-categories-in-reverie&#34;&gt;Using Categories in Reverie&lt;/h2&gt;
+
+&lt;p&gt;You can categorize your content based on &lt;code&gt;categories&lt;/code&gt; in Reverie. For this, you just need to add &lt;code&gt;categories&lt;/code&gt; in front matter like below:&lt;/p&gt;
+
+&lt;p&gt;For adding single category:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;categories: JavaScript
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For adding multiple categories:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;categories: [PHP, Laravel]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The contegorized content can be shown over this URL: &lt;a href=&#34;https://yourgithubusername.github.io/categories/&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io/categories/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;rss&#34;&gt;RSS&lt;/h2&gt;
+
+&lt;p&gt;The generated &lt;a href=&#34;https://en.wikipedia.org/wiki/RSS&#34; target=&#34;_blank&#34;&gt;RSS feed&lt;/a&gt; of your blog can be found at &lt;a href=&#34;https://yourgithubusername.github.io/feed&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io/feed&lt;/a&gt;. You can see the example RSS feed over &lt;a href=&#34;https://www.amitmerchant.com/feed&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;sitemap&#34;&gt;Sitemap&lt;/h2&gt;
+
+&lt;p&gt;The generated sitemap of your blog can be found at &lt;a href=&#34;https://yourgithubusername.github.io/sitemap&#34; target=&#34;_blank&#34;&gt;https://yourgithubusername.github.io/sitemap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;MIT&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks and Deep Learning - Week 1</title>
+      <link>/post/2019-06-20-neural-networks-deep-learning-week1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-20-neural-networks-deep-learning-week1/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-1-summary&#34;&gt;Week 1 Summary&lt;/h1&gt;
+
+&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;
+
+&lt;p&gt;In this video Andrew Ng. walkthrough the deep learning specialization which includes Neural Networks and deep learning, hyperparameter tuning, structural machine learning projects, CNN and finally Recurrent Neural Network. The quote by Andrew Ng. that is &lt;code&gt;AI is the new Electricity&lt;/code&gt;. This quote is really a powerful words that has already shown a disruptive of using AI across industries just like the electrification does in the Industrial Era. The main motive in this specialization is to be able to build and tunes deep learning model and apply to various problems across industries.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-neural-network&#34;&gt;What is Neural Network?&lt;/h2&gt;
+
+&lt;p&gt;Neural network is basically implements a function that maps a series of input to output. Let us consider a simple housing price prediction problem, that given the size of the house (in square feet), the job of this prediction is to predicts the price.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/housing-price.png&#34; alt=&#34;Housing price example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The line that is shown in the figure is a ReLU (Rectified Linear Unit) function. Neural Network is a stacking of these small neuron.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/housing-price-4-input.png&#34; alt=&#34;Housing price with 4 features&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the figure below, we have three properties or features of the housing. It can be the size, number of bedrooms, the postal code and maybe wealth. Taking the size and number of bedrooms we can predicts the &lt;code&gt;family size&lt;/code&gt;. Also taking the Zip code, we can map the &lt;code&gt;walkability distance&lt;/code&gt; and finally if we take postal code and wealth we can predicts the &lt;code&gt;quality of the school&lt;/code&gt; in that area. This layers can be assume to be predicted by the neural network and let neural network decides what to do with it. We call this kind of layer as hidden layers. The goal of neural network is to takes input and predict the output or an approximation of input to output. The layer that is not the input and output are called the hidden layer.&lt;/p&gt;
+
+&lt;h2 id=&#34;supervised-learning-with-neural-networks&#34;&gt;Supervised Learning with Neural Networks&lt;/h2&gt;
+
+&lt;p&gt;one type of economical value by ML is supervised ML. Cleverly choosen of &lt;code&gt;X&lt;/code&gt; and &lt;code&gt;Y&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Neural Network Example
+- Standard NN
+- Convolutional NN
+- Recurrent NN&lt;/p&gt;
+
+&lt;p&gt;There are two types of data: Structure data and unstructure data.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-deeplearning-taking-off&#34;&gt;Why deeplearning taking off?&lt;/h2&gt;
+
+&lt;p&gt;Changes from Sigmoid to RELU due to gradient. Convergent is fast. Gradient and decent works faster.
+- Data
+-Algorithm
+-Computation&lt;/p&gt;
+
+&lt;p&gt;Iteration in DL
+Idea -&amp;gt; Code -&amp;gt; Experiment&lt;/p&gt;
+
+&lt;h2 id=&#34;course-resources&#34;&gt;Course Resources&lt;/h2&gt;
+
+&lt;p&gt;deeplearning.ai&lt;/p&gt;
+
+&lt;p&gt;fine representation pixel&amp;ndash;&amp;gt; co-ordinate&amp;ndash;&amp;gt;matrix multiply.
+Generic principle. Represent from one to linear representation.&lt;/p&gt;
+
+&lt;p&gt;Read the literature and look for something wrong and then work on it.&lt;/p&gt;
+
+&lt;p&gt;Trust your intuition. Go for it. Don&amp;rsquo;t worry if every body says it is nonsense.&lt;/p&gt;
+
+&lt;p&gt;When you&amp;rsquo;re thinking you have a very good idea and somebody says that its nonsense or nothing. Then you&amp;rsquo;re really into something.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dr-darryl-wright.github.io/reading/list/2018/08/22/geoffrey-hinton-interview-reading-list.html&#34; target=&#34;_blank&#34;&gt;Gefrey Hinton Reading List&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;discussion-forum&#34;&gt;Discussion Forum&lt;/h2&gt;
+
+&lt;h3 id=&#34;why-is-learning-slower-in-a-sigmoid-function&#34;&gt;Why is learning slower in a sigmoid function?&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;Oliver Philip&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In the context of deep learning, vanishing gradient is the main issue with sigmoid activation since multiplying a number (each element of gradient) by a value between 0 and 1 many times (DL = many layers) will rapidly lead to a quasi null value.&lt;/p&gt;
+
+&lt;p&gt;ReLU activation takes care of that issue for any positive value but what about negative value?&lt;/p&gt;
+
+&lt;p&gt;The answer simply is: we do not need negative value.&lt;/p&gt;
+
+&lt;p&gt;A single neuron can be seen as a detector with all entry associated with a positive weight contributing to the detection and all entry associated with a negative weight diminishing the detection. If the neuron weighted value before activation is negative, there is no detection.&lt;/p&gt;
+
+&lt;p&gt;So with ReLU activation, we just don&amp;rsquo;t use the &amp;ldquo;non detection&amp;rdquo; part.&lt;/p&gt;
+
+&lt;p&gt;But what if the network need the &amp;ldquo;non detection&amp;rdquo; part?&lt;/p&gt;
+
+&lt;p&gt;Then another neuron with the exact same value weights but with all signs inverted will be used for this new detection task.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Giovanni Bianchi&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I would like to tack on Bhavul&amp;rsquo;s excellent answer with some more high-level and qualitative considerations that might give you some more context.&lt;/p&gt;
+
+&lt;p&gt;I interpret Andrew&amp;rsquo;s remark as having to do with the slope of the function at the ends. The sigmoid becomes flat and then inherently &amp;ldquo;stable&amp;rdquo;, meaning the output doesn&amp;rsquo;t react very much to variations of the input, making learning slow once certain input values are reached.&lt;/p&gt;
+
+&lt;p&gt;The ReLU function, instead, is linear for x &amp;gt; 0 in the impact of input over output, resulting in a much more responsive system, one that is quicker to learn.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m sure we&amp;rsquo;ll see in the following lessons, that the tail stability of the Sigmoid will turn out not to be desirable in some situations.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Ed Mitby Mentor&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Interesting, here are the results I am getting:&lt;/p&gt;
+
+&lt;p&gt;sigmoid(x): 1.5 ms&lt;/p&gt;
+
+&lt;p&gt;sigmoid_derivative(x): 205 ns&lt;/p&gt;
+
+&lt;p&gt;RELU(x): 137 ns&lt;/p&gt;
+
+&lt;p&gt;SWISH(x): 1.82 ms&lt;/p&gt;
+
+&lt;p&gt;$\sqrt{3x-1}+(1+x)^2$&lt;/p&gt;
+
+&lt;p&gt;At first glance it appears the &amp;ldquo;return 1 if x&amp;gt;0 else 0&amp;rdquo; and &amp;ldquo;x*(1-x) &amp;ldquo; are much faster than the numpy exp function.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks and Deep Learning - Week 2</title>
+      <link>/post/2019-06-21-neural-networks-deep-learning-week2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-21-neural-networks-deep-learning-week2/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-2-logistic-regression-as-a-neural-network-summary&#34;&gt;Week 2 : Logistic Regression as a Neural Network : Summary&lt;/h1&gt;
+
+&lt;h2 id=&#34;binary-classification&#34;&gt;Binary Classification&lt;/h2&gt;
+
+&lt;p&gt;Notation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks and Deep Learning - Week 2</title>
+      <link>/post/2019-06-29-practical-deep-learning-for-coders-getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-29-practical-deep-learning-for-coders-getting-started/</guid>
+      <description>
+
+&lt;h1 id=&#34;practical-deep-learning-for-coders-v3-lesson-1-by-jeremy-howard&#34;&gt;Practical Deep Learning for Coders, V3 Lesson 1 by Jeremy Howard&lt;/h1&gt;
+
+&lt;h2 id=&#34;cloud-computing-for-deep-learning&#34;&gt;Cloud Computing for Deep Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google compute platform&lt;/li&gt;
+&lt;li&gt;Salamander&lt;/li&gt;
+&lt;li&gt;Colab - free&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;i-will-be-using-colab-for-this-course-no-money-to-pay-for-cloud&#34;&gt;I will be using Colab for this course. No money to pay for cloud&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://course.fast.ai/start_colab.html&#34; target=&#34;_blank&#34;&gt;https://course.fast.ai/start_colab.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In Google Colab we need to save our work locally, meaning that the Google Clab is not responsible for saving our work.&lt;/p&gt;
+
+&lt;p&gt;The first step is to download the course material from fast.ai to do that, go ahead add a link to the github repository as shown in Figure below.&lt;/p&gt;
+
+&lt;p&gt;To change the runtime of the Colab. Go to Runtime and click change runtime type and select CPU/CPU/TPU (Tensor Processing Unit)&lt;/p&gt;
+
+&lt;h2 id=&#34;configure-the-notebook-instance&#34;&gt;Configure the notebook instance&lt;/h2&gt;
+
+&lt;p&gt;Install necessary packages as below by creating a code cell, and running:&lt;/p&gt;
+
+&lt;p&gt;!curl -s &lt;a href=&#34;https://course.fast.ai/setup/colab&#34; target=&#34;_blank&#34;&gt;https://course.fast.ai/setup/colab&lt;/a&gt; | bash&lt;/p&gt;
+
+&lt;p&gt;Saving the data files to Google drive&lt;/p&gt;
+
+&lt;p&gt;We let Google Colab autorize accesses to drive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks and Deep Learning - Week 2</title>
+      <link>/post/2019-06-29-practical-deep-learning-for-coders-lesson-1-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-29-practical-deep-learning-for-coders-lesson-1-video/</guid>
+      <description>
+
+&lt;h1 id=&#34;practical-deep-learning-for-coders-v3-lesson-1-video-by-jeremy-howard&#34;&gt;Practical Deep Learning for Coders, V3 Lesson 1 Video by Jeremy Howard&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;Code section&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;fast Ai sit at the top of Pytorch&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

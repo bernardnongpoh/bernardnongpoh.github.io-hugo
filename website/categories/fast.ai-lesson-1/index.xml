@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fast.ai Lesson 1 on Bernard Nongpoh</title>
+    <link>/categories/fast.ai-lesson-1/</link>
+    <description>Recent content in Fast.ai Lesson 1 on Bernard Nongpoh</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="/categories/fast.ai-lesson-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neural Networks and Deep Learning - Week 2</title>
+      <link>/post/2019-06-29-practical-deep-learning-for-coders-getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-29-practical-deep-learning-for-coders-getting-started/</guid>
+      <description>
+
+&lt;h1 id=&#34;practical-deep-learning-for-coders-v3-lesson-1-by-jeremy-howard&#34;&gt;Practical Deep Learning for Coders, V3 Lesson 1 by Jeremy Howard&lt;/h1&gt;
+
+&lt;h2 id=&#34;cloud-computing-for-deep-learning&#34;&gt;Cloud Computing for Deep Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google compute platform&lt;/li&gt;
+&lt;li&gt;Salamander&lt;/li&gt;
+&lt;li&gt;Colab - free&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;i-will-be-using-colab-for-this-course-no-money-to-pay-for-cloud&#34;&gt;I will be using Colab for this course. No money to pay for cloud&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://course.fast.ai/start_colab.html&#34; target=&#34;_blank&#34;&gt;https://course.fast.ai/start_colab.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In Google Colab we need to save our work locally, meaning that the Google Clab is not responsible for saving our work.&lt;/p&gt;
+
+&lt;p&gt;The first step is to download the course material from fast.ai to do that, go ahead add a link to the github repository as shown in Figure below.&lt;/p&gt;
+
+&lt;p&gt;To change the runtime of the Colab. Go to Runtime and click change runtime type and select CPU/CPU/TPU (Tensor Processing Unit)&lt;/p&gt;
+
+&lt;h2 id=&#34;configure-the-notebook-instance&#34;&gt;Configure the notebook instance&lt;/h2&gt;
+
+&lt;p&gt;Install necessary packages as below by creating a code cell, and running:&lt;/p&gt;
+
+&lt;p&gt;!curl -s &lt;a href=&#34;https://course.fast.ai/setup/colab&#34; target=&#34;_blank&#34;&gt;https://course.fast.ai/setup/colab&lt;/a&gt; | bash&lt;/p&gt;
+
+&lt;p&gt;Saving the data files to Google drive&lt;/p&gt;
+
+&lt;p&gt;We let Google Colab autorize accesses to drive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks and Deep Learning - Week 2</title>
+      <link>/post/2019-06-29-practical-deep-learning-for-coders-lesson-1-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-29-practical-deep-learning-for-coders-lesson-1-video/</guid>
+      <description>
+
+&lt;h1 id=&#34;practical-deep-learning-for-coders-v3-lesson-1-video-by-jeremy-howard&#34;&gt;Practical Deep Learning for Coders, V3 Lesson 1 Video by Jeremy Howard&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;Code section&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;fast Ai sit at the top of Pytorch&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

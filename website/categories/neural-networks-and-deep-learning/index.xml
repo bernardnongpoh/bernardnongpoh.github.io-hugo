@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural Networks and Deep Learning on Bernard Nongpoh</title>
+    <link>/categories/neural-networks-and-deep-learning/</link>
+    <description>Recent content in Neural Networks and Deep Learning on Bernard Nongpoh</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="/categories/neural-networks-and-deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neural Networks and Deep Learning - Week 1</title>
+      <link>/post/2019-06-20-neural-networks-deep-learning-week1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-20-neural-networks-deep-learning-week1/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-1-summary&#34;&gt;Week 1 Summary&lt;/h1&gt;
+
+&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;
+
+&lt;p&gt;In this video Andrew Ng. walkthrough the deep learning specialization which includes Neural Networks and deep learning, hyperparameter tuning, structural machine learning projects, CNN and finally Recurrent Neural Network. The quote by Andrew Ng. that is &lt;code&gt;AI is the new Electricity&lt;/code&gt;. This quote is really a powerful words that has already shown a disruptive of using AI across industries just like the electrification does in the Industrial Era. The main motive in this specialization is to be able to build and tunes deep learning model and apply to various problems across industries.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-neural-network&#34;&gt;What is Neural Network?&lt;/h2&gt;
+
+&lt;p&gt;Neural network is basically implements a function that maps a series of input to output. Let us consider a simple housing price prediction problem, that given the size of the house (in square feet), the job of this prediction is to predicts the price.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/housing-price.png&#34; alt=&#34;Housing price example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The line that is shown in the figure is a ReLU (Rectified Linear Unit) function. Neural Network is a stacking of these small neuron.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/housing-price-4-input.png&#34; alt=&#34;Housing price with 4 features&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the figure below, we have three properties or features of the housing. It can be the size, number of bedrooms, the postal code and maybe wealth. Taking the size and number of bedrooms we can predicts the &lt;code&gt;family size&lt;/code&gt;. Also taking the Zip code, we can map the &lt;code&gt;walkability distance&lt;/code&gt; and finally if we take postal code and wealth we can predicts the &lt;code&gt;quality of the school&lt;/code&gt; in that area. This layers can be assume to be predicted by the neural network and let neural network decides what to do with it. We call this kind of layer as hidden layers. The goal of neural network is to takes input and predict the output or an approximation of input to output. The layer that is not the input and output are called the hidden layer.&lt;/p&gt;
+
+&lt;h2 id=&#34;supervised-learning-with-neural-networks&#34;&gt;Supervised Learning with Neural Networks&lt;/h2&gt;
+
+&lt;p&gt;one type of economical value by ML is supervised ML. Cleverly choosen of &lt;code&gt;X&lt;/code&gt; and &lt;code&gt;Y&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Neural Network Example
+- Standard NN
+- Convolutional NN
+- Recurrent NN&lt;/p&gt;
+
+&lt;p&gt;There are two types of data: Structure data and unstructure data.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-deeplearning-taking-off&#34;&gt;Why deeplearning taking off?&lt;/h2&gt;
+
+&lt;p&gt;Changes from Sigmoid to RELU due to gradient. Convergent is fast. Gradient and decent works faster.
+- Data
+-Algorithm
+-Computation&lt;/p&gt;
+
+&lt;p&gt;Iteration in DL
+Idea -&amp;gt; Code -&amp;gt; Experiment&lt;/p&gt;
+
+&lt;h2 id=&#34;course-resources&#34;&gt;Course Resources&lt;/h2&gt;
+
+&lt;p&gt;deeplearning.ai&lt;/p&gt;
+
+&lt;p&gt;fine representation pixel&amp;ndash;&amp;gt; co-ordinate&amp;ndash;&amp;gt;matrix multiply.
+Generic principle. Represent from one to linear representation.&lt;/p&gt;
+
+&lt;p&gt;Read the literature and look for something wrong and then work on it.&lt;/p&gt;
+
+&lt;p&gt;Trust your intuition. Go for it. Don&amp;rsquo;t worry if every body says it is nonsense.&lt;/p&gt;
+
+&lt;p&gt;When you&amp;rsquo;re thinking you have a very good idea and somebody says that its nonsense or nothing. Then you&amp;rsquo;re really into something.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dr-darryl-wright.github.io/reading/list/2018/08/22/geoffrey-hinton-interview-reading-list.html&#34; target=&#34;_blank&#34;&gt;Gefrey Hinton Reading List&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;discussion-forum&#34;&gt;Discussion Forum&lt;/h2&gt;
+
+&lt;h3 id=&#34;why-is-learning-slower-in-a-sigmoid-function&#34;&gt;Why is learning slower in a sigmoid function?&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;Oliver Philip&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In the context of deep learning, vanishing gradient is the main issue with sigmoid activation since multiplying a number (each element of gradient) by a value between 0 and 1 many times (DL = many layers) will rapidly lead to a quasi null value.&lt;/p&gt;
+
+&lt;p&gt;ReLU activation takes care of that issue for any positive value but what about negative value?&lt;/p&gt;
+
+&lt;p&gt;The answer simply is: we do not need negative value.&lt;/p&gt;
+
+&lt;p&gt;A single neuron can be seen as a detector with all entry associated with a positive weight contributing to the detection and all entry associated with a negative weight diminishing the detection. If the neuron weighted value before activation is negative, there is no detection.&lt;/p&gt;
+
+&lt;p&gt;So with ReLU activation, we just don&amp;rsquo;t use the &amp;ldquo;non detection&amp;rdquo; part.&lt;/p&gt;
+
+&lt;p&gt;But what if the network need the &amp;ldquo;non detection&amp;rdquo; part?&lt;/p&gt;
+
+&lt;p&gt;Then another neuron with the exact same value weights but with all signs inverted will be used for this new detection task.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Giovanni Bianchi&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I would like to tack on Bhavul&amp;rsquo;s excellent answer with some more high-level and qualitative considerations that might give you some more context.&lt;/p&gt;
+
+&lt;p&gt;I interpret Andrew&amp;rsquo;s remark as having to do with the slope of the function at the ends. The sigmoid becomes flat and then inherently &amp;ldquo;stable&amp;rdquo;, meaning the output doesn&amp;rsquo;t react very much to variations of the input, making learning slow once certain input values are reached.&lt;/p&gt;
+
+&lt;p&gt;The ReLU function, instead, is linear for x &amp;gt; 0 in the impact of input over output, resulting in a much more responsive system, one that is quicker to learn.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m sure we&amp;rsquo;ll see in the following lessons, that the tail stability of the Sigmoid will turn out not to be desirable in some situations.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Ed Mitby Mentor&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Interesting, here are the results I am getting:&lt;/p&gt;
+
+&lt;p&gt;sigmoid(x): 1.5 ms&lt;/p&gt;
+
+&lt;p&gt;sigmoid_derivative(x): 205 ns&lt;/p&gt;
+
+&lt;p&gt;RELU(x): 137 ns&lt;/p&gt;
+
+&lt;p&gt;SWISH(x): 1.82 ms&lt;/p&gt;
+
+&lt;p&gt;$\sqrt{3x-1}+(1+x)^2$&lt;/p&gt;
+
+&lt;p&gt;At first glance it appears the &amp;ldquo;return 1 if x&amp;gt;0 else 0&amp;rdquo; and &amp;ldquo;x*(1-x) &amp;ldquo; are much faster than the numpy exp function.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks and Deep Learning - Week 2</title>
+      <link>/post/2019-06-21-neural-networks-deep-learning-week2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-06-21-neural-networks-deep-learning-week2/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-2-logistic-regression-as-a-neural-network-summary&#34;&gt;Week 2 : Logistic Regression as a Neural Network : Summary&lt;/h1&gt;
+
+&lt;h2 id=&#34;binary-classification&#34;&gt;Binary Classification&lt;/h2&gt;
+
+&lt;p&gt;Notation&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
