@@ -10,7 +10,5 @@ categories: [Neural Networks and Deep Learning]
 ## Binary Classification
 
 Notation
-$(x,y) x \in R^{n_x} , y \in {0,1}$
-m training examples : {()} 
 
 
